@@ -1,0 +1,35 @@
+/* src/components/ItemList.css */
+.item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #0056b3;
+}
+
+.item button:last-child {
+    background-color: #dc3545;
+}
+
+.item button:last-child:hover {
+    background-color: #c82333;
+}
